@@ -14,7 +14,7 @@
 	<name>PatientIntake</name>
 	<description>Spring Unit Test patient Intake</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
