@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.ea.patientintake.model.ClinicMain;
 
+//Comment for poll
 @SpringBootApplication
 public class PatientIntakeApplication {
 	public static void main(String[] args) {
