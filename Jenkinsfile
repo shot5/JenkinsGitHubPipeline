@@ -38,6 +38,7 @@ pipeline {
         }
         stage('Publish Artifacts') {
             steps {
+                //input("Do you want to continue or not?")
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
