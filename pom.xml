@@ -12,6 +12,7 @@
 	<artifactId>PatientIntake</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>PatientIntake</name>
+	<packaging>war</packaging>
 	<description>Spring Unit Test patient Intake</description>
 	<properties>
 		<java.version>8</java.version>
