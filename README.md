@@ -1,2 +1,2 @@
-# JenkinsGitHubPipeline
+# JenkinsGitHubPipelined
 Jenkins GitHub Pipeline Integration
