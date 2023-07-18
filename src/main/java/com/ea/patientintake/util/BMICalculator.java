@@ -3,6 +3,7 @@ package com.ea.patientintake.util;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
+//BMI Calculator
 public class BMICalculator {
 
   public static double calculateBmi(Integer inches, Integer pounds) {
