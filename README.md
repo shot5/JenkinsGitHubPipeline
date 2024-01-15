@@ -1,3 +1,3 @@
 # JenkinsGitHubPipelined
 Jenkins GitHub Pipeline Integration
-Jenkins poll commits testing
+Test Jenkins poll commits testing
