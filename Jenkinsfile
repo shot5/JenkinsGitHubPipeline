@@ -16,9 +16,6 @@ pipeline {
                 bat "mvn -Dmaven.test.failure.ignore=true clean package"
             }
             post {
-                always{
-                    emailext body: 'The pipeline has failed, please go to Jenkins and check the problem', subject: 'Pipeline status', to: 'emileastih1@gmail.com'
-                }
                 success {
                     junit '**/target/surefire-reports/TEST-*.xml'
                     archiveArtifacts 'target/*.jar'
