@@ -41,8 +41,6 @@ pipeline {
             steps {
                 //input("Do you want to continue or not?")
                 echo 'Save the assemblies generated from the compilation'
-                 deploy adapters: [tomcat9(credentialsId: '96c004d6-28c0-4dd5-a177-84a8c3eca199', path: '', url: 'http://localhost:8088')], contextPath: 'sample app', war: '**/*.war'
-            }
         }
     }
 }
